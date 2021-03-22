@@ -77,13 +77,22 @@
             font-size: 1.6rem;
         }
     } 
- }
+}
 
- @media screen and (max-width: 840px) {
+@media screen and (max-width: 840px) {
     .menu {
 
         &__text {
             font-size: 1.3rem;
         }
     } 
- }
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+   
+        &__image {
+            display: none;
+        }
+    } 
+}
