@@ -26,7 +26,7 @@ const About = () => {
                 <AboutItem 
                     icon={"fas fa-carrot"} 
                     header={"Vegetarian Dishes"} 
-                    details={"The largest selection of vegetarian dishes in the PDX!"} />
+                    details={"The largest selection of vegetarian dishes in Seattle!"} />
                 <AboutItem 
                     icon={"fas fa-fish"} 
                     header={"Seafood"} 
