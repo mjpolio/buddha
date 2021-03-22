@@ -82,11 +82,12 @@
     &__toggle {
 		color: gray;
 		padding: 1rem 2rem; 
-		border: 1px solid gray;
+		border: 2px solid gray;
+        background-color: #242424;
 		border-radius: 1rem;
 		margin: auto;
 		cursor: pointer;
-		font-size: 3.2rem;
+		font-size: 3.4rem;
 		z-index: 9999;
 		position: fixed;
 		top: 3rem;
