@@ -81,17 +81,17 @@
 
     &__toggle {
 		color: gray;
-		padding: .7rem 1.5rem; 
+		padding: .5rem 1rem; 
 		border: 2px solid gray;
-        background-color: #242424;
+        background-color: rgba(#242424, .7);
 		border-radius: 1rem;
 		margin: auto;
 		cursor: pointer;
-		font-size: 2.8rem;
+		font-size: 2.4rem;
 		z-index: 9999;
 		position: fixed;
-		top: 2.5rem;
-		right: 2.5rem;
+		top: 2rem;
+		right: 2rem;
 		display: none;
 
 		@media screen and (max-width: 640px) {
