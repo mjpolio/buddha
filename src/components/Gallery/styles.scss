@@ -1,0 +1,32 @@
+@import '../../sass/abstracts/variables';
+
+.gallery {
+    padding: 4rem 0 2rem;
+    background-color: $color-white;
+
+    &__img {
+        display: inline-block;
+        width: 100%;
+        max-height: 22rem;
+        padding: .5rem .7rem;
+        transition: all .4s ease;
+        object-fit: cover;
+        &:hover {
+            opacity: .5;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .gallery__center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .gallery__center {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

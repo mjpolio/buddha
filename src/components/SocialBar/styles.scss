@@ -1,0 +1,38 @@
+@import '../../sass/abstracts/variables';
+
+.social-icons {
+    height: 15rem;
+    background-color: $color-white;
+    text-align: center;
+    padding: 4rem 0;
+
+    & a {
+        display: inline-block;
+        padding: .5rem 1rem;
+        margin: 0 .5rem;
+        font-size: 4rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        text-shadow: 0 2px 4px rgba($color-black, .4);
+        transition: all .5s ease;
+
+        &:hover {
+            transform: translateY(-1rem);
+        }
+    }
+}
+.facebook {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #38a1f3;
+}
+
+.instagram {
+    color: #e1306c;
+}
+
+.google {
+    color: #db4a39;
+}

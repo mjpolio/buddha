@@ -1,0 +1,60 @@
+@import '../../sass/abstracts/typography';
+@import '../../sass/abstracts/variables';
+
+.header {
+    height: 100vh;
+    background: 
+        linear-gradient(to bottom, rgba($color-black, .5), rgba($color-black, .8)),
+        url(../../img/hero.jpg) top/cover no-repeat fixed;
+    margin-top: auto;
+
+    &__logo {
+        width: 12rem;
+        height: auto;
+    }
+    &__hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__title {
+       color: $color-white;
+       font-size: 5.4rem;
+    }
+
+    &__subtitle {
+        color: $color-white;
+        font-size: 2.8rem;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+     }
+ 
+
+    &__button {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem 2.4rem;
+
+        border-radius: 12rem;
+        font-size: 1.9rem;
+        font-weight: 500;
+        background-color: $color-primary;
+        color: $color-white;
+        cursor: pointer;
+        outline: none;
+        margin-top: 1rem;
+        transition: all .3s ease;
+
+        &:hover {
+            background-color: $color-white;
+            color: $color-primary;
+        }
+    }
+}

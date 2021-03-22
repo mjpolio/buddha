@@ -1,0 +1,68 @@
+@import '../../sass/abstracts/variables';
+
+.footer {
+    background-color: #242424;
+    text-align: center;
+    padding: 5rem 0 2rem;
+    margin: 0 auto;
+
+
+   &__container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 60%;
+       margin: 0 auto;
+       color: $color-white;
+       font-size: 2.6rem;
+
+       &-left, 
+       &-right {
+            width: 50%;
+       }
+   }
+
+   &__logo {
+       width: 12rem;
+       height: auto;
+   }
+
+   &__heading {
+       color: $color-primary;
+   }
+
+   &__contact{
+        font-size: 2rem;
+   }
+
+   &__hours {
+        font-size: 2rem;
+
+       &-title {
+          font-size: 2.4rem;
+          letter-spacing: 1.3px;
+       }
+      
+   }
+
+   @media screen and (max-width: 796px) {
+        &__container {
+            display: flex;
+            flex-direction: column;
+
+            &-left,
+            &-right {
+                width: 100%;
+                padding: 2rem 0;
+            }
+        }   
+    }
+}
+
+.copyright {
+    &__text {
+        color: $color-primary;
+        font-size: 2.2rem;
+        padding: 3rem 0 2rem;;
+    }
+}
