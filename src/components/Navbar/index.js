@@ -76,7 +76,7 @@ const Navbar = () => {
         <div>
             <nav class={mobileNav ? "navbar mobile" : (scrolled ? "navbar scrolled" : "navbar")}>
                 <ul class="navbar__list">
-                    <li class="navbar__list-item">
+                    <li class="navbar__list-item" onClick={closeMobileMenu}>
                         <a href="#" className={scrolled ? "navbar__link scrolled" : "navbar__link"}>Home</a>
                     </li>
                     <li class="navbar__list-item" onClick={closeMobileMenu}>
