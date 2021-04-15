@@ -1,9 +1,9 @@
 @import '../../sass/abstracts/variables';
 
 .gallery {
-    padding: 2rem 0 2rem;
+    padding: 6rem 0;
     background-color: $color-white;
-
+    text-align: center;
     &__img {
         display: inline-block;
         width: 100%;

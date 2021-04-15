@@ -1,9 +1,37 @@
 @import './variables';
 
+.white {
+    color: #fff;
+}
+
+.gradient {
+    // background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    // -webkit-background-clip: text;
+    // color: transparent;
+    color: $color-primary;
+}
+
 .heading-primary {
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 4rem 0; 
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+        height: 2.3px;
+        // color: red;
+        background-color: currentColor;
+        // width: 8rem;
+        width: 80%;
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .underline {

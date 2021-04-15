@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="header__hero">
                     <img src={Logo} alt="" className="header__logo"/>
                     <h1 className="header__title">
-                        The Buddha Cafe
+                        The Zen Cafe
                         <div className='underline'></div>
                     </h1>
 				    

@@ -1,7 +1,9 @@
 @import '../../sass/abstracts/variables';
 
 .cards {
-    padding: 6rem;
+    padding: 6rem 0;
+    text-align: center;
+    background-color: #242424;
 
     &__container {
         width: 90vw;
@@ -126,7 +128,7 @@
         margin: 0;
     }
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .cards {
         padding: 2rem;
     }

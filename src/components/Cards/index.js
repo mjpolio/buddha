@@ -12,7 +12,7 @@ const Cards = () => {
     return (
        <section className="cards">
            <div>
-               <h2 className="heading-primary">Food Fusion</h2>
+               <h2 className="heading-primary gradient">Food Fusion</h2>
            </div>
            <div className="cards__container">
                <CardItem 
